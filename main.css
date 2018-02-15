@@ -23,3 +23,20 @@ nav li {
 nav .navbar-nav ul li a:hover{
     color: yellow !important;
 }
+
+.text-box {
+    width: 14rem;
+}
+
+.btn .btn-danger {
+    color: #fff;
+}
+
+.home-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.home-paragraph {
+    margin: 1rem 1rem;
+}
