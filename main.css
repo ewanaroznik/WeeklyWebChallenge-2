@@ -9,15 +9,17 @@
 }
 
 nav img {
-    padding: 1.75rem;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 nav li {
-    padding: 1.75rem;
+    padding: 1rem;
     font-weight: 700;
-    font-size: larger;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
-.navbar-nav ul li a:after{
+nav .navbar-nav ul li a:hover{
     color: yellow !important;
 }
