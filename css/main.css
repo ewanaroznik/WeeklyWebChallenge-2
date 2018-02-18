@@ -86,16 +86,13 @@ nav li {
     font-weight: 700;
 }
 
-.about-img img {
-}
-
 .services {
     height: 790px;
     background: #70bfff;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #262626 !important;
+
 }
 
 .services-img {
@@ -103,11 +100,55 @@ nav li {
 }
 
 .list-item {
-    width: 15rem;
-    height: 3rem;
+    width: 20rem;
+    height: 5rem;
     margin-top: 1rem;
     text-decoration: none;
     font-weight: 700;
     background-color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
+.list-item a {
+    color: #262626;
+    padding-left: 1.5rem;
+}
+
+.list-item a:hover{
+    text-decoration: none;
+}
+
+.list-item div {
+    border-left: 1px solid black;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item div i img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-img {
+    position:relative;
+}
+
+.services-img span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: 700;
+    width: 100%;
 }
