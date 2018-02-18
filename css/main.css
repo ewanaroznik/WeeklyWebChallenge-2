@@ -34,7 +34,7 @@ nav li {
 }
 
 .navbar-nav li a:hover{
-    color: yellow !important;
+    color: lightgreen !important;
 }
 
 .text-box {
@@ -151,4 +151,21 @@ nav li {
     font-size: 4rem;
     font-weight: 700;
     width: 100%;
+}
+
+.gallery {
+    background-color: #ffe92f;
+    height: 1536px;
+}
+
+.gallery-text{
+    display: inline-block;
+    width: 50%;
+    padding-top: 4.5rem;
+}
+
+.gallery-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
 }
