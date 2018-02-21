@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Raleway', sans-serif !important;
+    /*position: relative;*/
 }
 
 .home-bg{
@@ -35,6 +36,10 @@ nav li {
 
 .navbar-nav li a:hover{
     color: lightgreen !important;
+}
+
+.navbar-nav li a:active{
+    background-color: transparent !important;
 }
 
 .text-box {
@@ -156,6 +161,8 @@ nav li {
 .gallery {
     background-color: #ffe92f;
     height: 1536px;
+    text-align: center;
+
 }
 
 .gallery-text{
@@ -169,3 +176,23 @@ nav li {
     font-weight: 700;
     padding-bottom: 2rem;
 }
+
+.gallery-text p {
+    font-size: 1rem;
+}
+
+.gallery .gallery-item {
+   margin: 0 auto 30px;
+}
+
+.gallery .img-responsive {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.gallery-box {
+    margin-top:2rem;
+}
+
+/*.gallery-item {*/
+    /*margin: 0 auto;*/
+/*}*/
