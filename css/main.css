@@ -253,10 +253,12 @@ nav li {
     font-size: 4rem;
     font-weight: 700;
     padding-bottom: 2rem;
+    text-align: center;
 }
 
 .blog-text p {
     font-size: 1rem;
+    text-align: center;
 }
 
 .blog-items {
@@ -333,4 +335,22 @@ nav li {
     font-size: 0.5rem;
     margin-left: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+.contact {
+    height: 868px;
+    background-image: url("../img/bgContact.png");
+}
+
+footer {
+    background-color: #262626;
+    height: 91px;
+    color: #fff;
+    font-size: 0.5rem;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
