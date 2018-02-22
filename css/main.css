@@ -201,8 +201,9 @@ nav li {
 
 .subscribe-box {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     flex-direction: column;
+
 }
 
 .subscribe h3 {
@@ -226,7 +227,7 @@ nav li {
 .subscribe input {
     border: 1px solid black;
     height: 2rem;
-    width: 25rem !important;
+    width: 28rem !important;
 }
 
 .subscribe .btn {
@@ -234,6 +235,102 @@ nav li {
     height: 2rem;
     width: 15%;
     color: #fff;
-    margin-left: 5rem;
+    margin-left: 2rem;
     font-size: 1rem;
+}
+
+.blog {
+    height: 866px;
+    background-color: #b07cf7;
+    color: #fff;
+}
+
+.blog-text {
+    margin-top:6rem;
+}
+
+.blog-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.blog-text p {
+    font-size: 1rem;
+}
+
+.blog-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.blog-item {
+    height: 16rem;
+    width: 17rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.blog-item-1 {
+    background: url("../img/blog1.png")center center no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-item-2 {
+    background: url("../img/blog2.png") right center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-item-3 {
+    background: url("../img/blog3.png") center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-btn {
+    margin-top: 2rem;
+}
+
+.blog-date-box {
+    width: 3rem;
+    height: 3rem;
+    align-self: flex-start;
+    background-color: rgba(000, 000, 000, 0.5);
+    margin: 1rem;
+    border-radius: 10%;
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.blog-text {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: left;
+}
+
+.blog-text h4 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-text span {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
 }
