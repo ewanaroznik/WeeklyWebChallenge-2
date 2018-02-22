@@ -213,3 +213,27 @@ nav li {
 .subscribe p {
     margin-top: 1rem;
 }
+
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form {
+    margin-top: 1rem;
+}
+
+.subscribe input {
+    border: 1px solid black;
+    height: 2rem;
+    width: 25rem !important;
+}
+
+.subscribe .btn {
+    background-color: #96b92c !important;
+    height: 2rem;
+    width: 15%;
+    color: #fff;
+    margin-left: 5rem;
+    font-size: 1rem;
+}
