@@ -162,7 +162,6 @@ nav li {
     background-color: #ffe92f;
     height: 1536px;
     text-align: center;
-
 }
 
 .gallery-text{
@@ -193,6 +192,24 @@ nav li {
     margin-top:2rem;
 }
 
-/*.gallery-item {*/
-    /*margin: 0 auto;*/
-/*}*/
+.subscribe {
+    height: 500px;
+    background-image: url("../img/bgSubscribe.png");
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.subscribe p {
+    margin-top: 1rem;
+}
