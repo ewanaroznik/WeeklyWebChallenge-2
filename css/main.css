@@ -17,8 +17,12 @@ body {
     position: relative;
 }
 
-.navbar {
+a {
     background-color: transparent;
+}
+
+.navbar {
+    background-color: #faf8fb;
     border:0;
 }
 
@@ -30,17 +34,12 @@ nav img {
 nav li {
     padding: 1rem;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin-top: 1rem;
 }
 
 .navbar-nav li a:hover{
     color: lightgreen !important;
-    background-color: transparent !important;
-}
-
-.navbar-nav li a:active{
-    background-color: transparent !important;
 }
 
 .text-box {
