@@ -36,6 +36,7 @@ nav li {
 
 .navbar-nav li a:hover{
     color: lightgreen !important;
+    background-color: transparent !important;
 }
 
 .navbar-nav li a:active{
@@ -342,6 +343,8 @@ nav li {
     background-image: url("../img/bgContact.png");
 }
 
+
+
 footer {
     background-color: #262626;
     height: 91px;
@@ -349,8 +352,102 @@ footer {
     font-size: 0.5rem;
 }
 
-footer .container {
+footer .container .row {
+    display: flex;
+    justify-content: space-between;
+    line-height: 91px;
+}
+
+footer .container .row .footer-image {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+footer .container .row .footer-love {
+    color: #e2054d;
+}
+
+.contact-text {
+    margin-top:4rem;
+}
+
+.contact-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-text p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.contact-data {
+    margin-top: 2rem;
+}
+
+.contact-list-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.contact-list-item span:first-child {
+    font-weight: 700;
+}
+
+.contact-form {
+    margin-top: 2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-header {
+    background-color: #00c4c4;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.contact-form-header span {
+    background-color: #00c4c4;
+    font-weight: 700;
+    line-height: 3rem;
+    white-space: nowrap;
+}
+
+.contact-form-header,.form-group form input, textarea {
+    height: 3rem;
+    width: 25rem;
+    color: #fff;
+    line-height: 2rem;
+    font-size: 0.75rem;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+}
+
+.form-group form input, textarea {
+    background-color: #76dadc;
+    opacity: 0.5;
+}
+
+.form-group form input::placeholder {
+    color: #fff;
+}
+
+.form-group form textarea {
+    height: 12rem;
+}
+
+.form-group form textarea::placeholder {
+    color: #fff;
 }
