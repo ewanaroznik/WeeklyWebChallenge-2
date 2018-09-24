@@ -7,19 +7,11 @@ body {
     /*position: relative;*/
 }
 
-.home-bg{
-    background: url('../img/homeBg.png') center;
-    background-size: cover;
-}
-
-.home {
-    height: 1000px;
-    position: relative;
-}
-
 a {
     background-color: transparent;
 }
+
+/* navigation*/
 
 .navbar {
     background-color: #faf8fb;
@@ -40,6 +32,18 @@ nav li {
 
 .navbar-nav li a:hover{
     color: lightgreen !important;
+}
+
+/* HOME section*/
+
+.home-bg{
+    background: url('../img/homeBg.png') center;
+    background-size: cover;
+}
+
+.home {
+    height: 1000px;
+    position: relative;
 }
 
 .text-box {
@@ -66,6 +70,8 @@ nav li {
 .btn {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+/* ABOUT section*/
 
 .about {
     background-color: #00b8b8;
@@ -144,6 +150,8 @@ nav li {
     margin-right: auto;
 }
 
+/* SERVICES section*/
+
 .services-img {
     position:relative;
 }
@@ -157,6 +165,8 @@ nav li {
     font-weight: 700;
     width: 100%;
 }
+
+/* GALLERY section*/
 
 .gallery {
     background-color: #ffe92f;
@@ -191,6 +201,8 @@ nav li {
 .gallery-box {
     margin-top:2rem;
 }
+
+/* SUBSCRIBE section*/
 
 .subscribe {
     height: 500px;
@@ -238,6 +250,8 @@ nav li {
     margin-left: 2rem;
     font-size: 1rem;
 }
+
+/* BLOG section*/
 
 .blog {
     height: 866px;
@@ -337,33 +351,11 @@ nav li {
     margin-bottom: 0.5rem;
 }
 
+/* CONTACT section*/
+
 .contact {
     height: 868px;
     background-image: url("../img/bgContact.png");
-}
-
-
-
-footer {
-    background-color: #262626;
-    height: 91px;
-    color: #fff;
-    font-size: 0.5rem;
-}
-
-footer .container .row {
-    display: flex;
-    justify-content: space-between;
-    line-height: 91px;
-}
-
-footer .container .row .footer-image {
-    display: flex;
-    align-items: center;
-}
-
-footer .container .row .footer-love {
-    color: #e2054d;
 }
 
 .contact-text {
@@ -432,6 +424,7 @@ footer .container .row .footer-love {
     padding-left: 1rem;
     margin-bottom: 0.5rem;
     border: 0;
+    font-weight: 700;
 }
 
 .form-group form input, textarea {
@@ -449,4 +442,35 @@ footer .container .row .footer-love {
 
 .form-group form textarea::placeholder {
     color: #fff;
+}
+
+.form-group input[type="submit"] {
+  width: 12.5rem;
+  background-color: #00c4c4;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+/* footer*/
+
+footer {
+    background-color: #262626;
+    height: 91px;
+    color: #fff;
+    font-size: 0.5rem;
+}
+
+footer .container .row {
+    display: flex;
+    justify-content: space-between;
+    line-height: 91px;
+}
+
+footer .container .row .footer-image {
+    display: flex;
+    align-items: center;
+}
+
+footer .container .row .footer-love {
+    color: #e2054d;
 }
